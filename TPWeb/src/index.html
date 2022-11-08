@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<header>
+    <meta charset="UTF-8" />
+    <title>Forêt</title>
+    <link href="style.css" rel="stylesheet">
+</header>
+<head>
+    <h1 class="button_grey">
+        Bienvenue Aventurier !
+    </h1>
+</head>
+<body>
+    <h3>
+        Vous êtes dans une forêt, vous sentez un besoin inconditionel de manger un Kinder Bueno alors vous vous decidez à aller dans un village proche.
+    </h3>
+    <style>
+        body {
+            background-image: url("Ressources/jungle.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        a {
+            color: rgb(5, 0, 101);
+        }
+        #fin {
+            position: absolute;
+            bottom: 10%;
+            left: 45%;
+        }
+    </style>
+<footer>
+    <h2>
+            <div id="fin">
+                <audio id="jojo" src="Ressources/jojo.mp3"></audio>
+                     <a href="SuiteJeu/village.html" class="button_grey" onmouseover="document.getElementById('jojo').play()" onmouseleave="document.getElementById('jojo').pause()">Avancer</a>               
+            </div>
+    </h2>
+</footer>
+</html>
