@@ -1,0 +1,59 @@
+
+
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 1%;
+  left: 40%;
+}
+
+h1:hover{
+  background-size :100%;
+  background-image: url("Ressources/siu.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h3{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 75px;
+}
+
+a:hover {
+  background-size :45%;
+  background-image: url("Ressources/ref.gif");
+  
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.button_grey {
+background-color: grey;
+border: black 4px solid;
+color: white;
+padding: 20px 34px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+
+
+
+            
+@media screen and (max-width: 667px){
+  p{
+  font-size: 50px;
+  }
+  }
+  
